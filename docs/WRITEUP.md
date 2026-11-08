@@ -39,7 +39,7 @@ After the close, three teams published their labels, and we scored them on the s
 
 | Label set | How it was made | Macro AUC | Synovitis | Effusion |
 |---|---|---:|---:|---:|
-| Ours | reports only, LLM + Claude | 0.909 | 0.802 | 0.866 |
+| Ours | reports only, LLM + [Claude](https://www.kaggle.com/datasets/apoorvsara/rsna-knee-claude-report-labels) | 0.909 | 0.802 | 0.866 |
 | [Public frontier blend](https://www.kaggle.com/datasets/cdeotte/rsna-knee-frontier-llm-hybrid-labels) | three frontier LLMs | 0.927 | 0.852 | 0.935 |
 | [1st place](https://www.kaggle.com/datasets/tascj0/rsna-2026-knee-agent-labels) | GPT Astra reading report and images | 0.943 | 0.881 | 0.945 |
 
@@ -120,7 +120,7 @@ Team [huytngo](https://www.kaggle.com/huytngo) and [apoorvsara](https://www.kagg
 | regex + local Qwen2.5-7B, rank-averaged (on the 52 expert studies released by then) | 0.853 |
 | [a public LLM label table](https://www.kaggle.com/datasets/stevenleehans/rsna-knee-llm-report-labels) (llm_labels_v4_blend) | 0.893 |
 | Claude, finding-by-finding read | 0.897 |
-| Claude, whole-report-first read | 0.904 |
+| [Claude, whole-report-first read](https://www.kaggle.com/datasets/apoorvsara/rsna-knee-claude-report-labels) | 0.904 |
 | labels_v4, LLM read re-adjudicated on 1,041 image- or consensus-disputed reports | 0.906 |
 | **final: 0.5 labels_v4 + 0.5 Claude whole-report read** | **0.909** |
 
