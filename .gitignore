@@ -1,0 +1,8 @@
+__pycache__/
+*.pt
+*.npy
+*.npz
+cache/
+figures/fig/
+*.csv
+!figures/data/*.csv

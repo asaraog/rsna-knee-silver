@@ -1,0 +1,52 @@
+{
+ "labels": {
+  "Ours (report-only, LLM + Claude)": {
+   "ACL": 0.99,
+   "MCL": 0.991,
+   "Medial Meniscus": 0.969,
+   "Lateral Meniscus": 0.878,
+   "Medial OA": 0.924,
+   "Lateral OA": 0.866,
+   "PF OA": 0.923,
+   "Effusion": 0.866,
+   "Synovitis": 0.802,
+   "Baker's": 0.94,
+   "Contusion": 0.864,
+   "Fracture": 0.892,
+   "macro": 0.909,
+   "n": 58
+  },
+  "Public 3-model frontier blend": {
+   "ACL": 0.991,
+   "MCL": 0.989,
+   "Medial Meniscus": 0.969,
+   "Lateral Meniscus": 0.896,
+   "Medial OA": 0.96,
+   "Lateral OA": 0.859,
+   "PF OA": 0.94,
+   "Effusion": 0.935,
+   "Synovitis": 0.852,
+   "Baker's": 0.975,
+   "Contusion": 0.851,
+   "Fracture": 0.908,
+   "macro": 0.927,
+   "n": 58
+  },
+  "1st place, image + report": {
+   "ACL": 1.0,
+   "MCL": 0.991,
+   "Medial Meniscus": 0.969,
+   "Lateral Meniscus": 0.929,
+   "Medial OA": 0.971,
+   "Lateral OA": 0.859,
+   "PF OA": 0.932,
+   "Effusion": 0.945,
+   "Synovitis": 0.881,
+   "Baker's": 0.982,
+   "Contusion": 0.932,
+   "Fracture": 0.925,
+   "macro": 0.943,
+   "n": 58
+  }
+ }
+}
