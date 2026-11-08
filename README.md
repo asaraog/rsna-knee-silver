@@ -86,6 +86,21 @@ python figures/make_figs.py
 
 `figures/make_data.py` rebuilds `data/label_auc.json` from the label files.
 
+## Citation
+
+Saraogee A, huytngo. 111th Place Solution (18th in the Efficiency Track). Kaggle, 2026. https://doi.org/10.34740/kaggle/w/124605
+
+```bibtex
+@misc{saraogee2026rsnaknee,
+  author    = {Saraogee, Apoorv and {huytngo}},
+  title     = {111th Place Solution (18th in the Efficiency Track)},
+  year      = {2026},
+  publisher = {Kaggle},
+  doi       = {10.34740/kaggle/w/124605},
+  url       = {https://doi.org/10.34740/kaggle/w/124605}
+}
+```
+
 ## License
 
 MIT for the code. The data, SKM-TEA and the public label tables keep their own licenses.
